@@ -22,3 +22,25 @@ outtext("text to display");
 ```sh
 outtextxy(100,200,"text to display");
 ```
+##### 3. putpixel(x,y,COLOR_VALUE)
+
+- It is used to set a color of pixel `(x,y)` with specified color value.
+- Color value can be specified using
+- Color name (in capital letters) : `RED , WHITE , GREEN` etc
+- Color integer (value 0-15) : `0-BLACK , 15-WHITE , 4-RED` etc
+
+
+`Example`
+```sh
+putpixel(100,200,"RED");
+
+putpixel(100,200,4);
+```
+##### 4. line(x1,y1,x2,y2)
+
+- It is used to draw a line from `(x1,y1)` to `(x2,y2)`
+
+`Example`
+```sh
+line(100,100,400,300);
+```
