@@ -78,5 +78,5 @@ setbkcolor("GREEN");
 `Example`
 
 ```sh
-setcolor("BLUE");
+circle(100,300,50);
 ```
