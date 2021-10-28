@@ -80,3 +80,25 @@ setbkcolor("GREEN");
 ```sh
 circle(100,300,50);
 ```
+##### 8. rectangle(left,top,right,bottom)
+
+- It is used to draw a rectangle by using specified boundries
+- Left - Min X
+- Top - Min Y
+- Right - Max X
+- Bottom - Max Y
+
+`Example`
+```sh
+rectangle(100,300,500,600);
+```
+##### 9. drawpoly(no. of vertices , an array of vertices)
+
+- It is used to draw a polygon
+
+`Example`
+```sh
+int arr[] = {10,10,100,200,400,300,450,400,10,10};
+
+drawpoly(5,arr);
+```
