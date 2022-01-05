@@ -6,7 +6,7 @@
 void FloodFill_8c(int x, int y, int o_color, int f_color)
 {
     int val = getpixel(x, y);
-    if (val != f_color)
+    if (val == o_color)
     {
         putpixel(x, y, f_color);
         FloodFill_8c(x, y + 1, o_color, f_color);
